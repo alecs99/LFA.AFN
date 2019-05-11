@@ -13,7 +13,7 @@ class AFN {
     int *fin;
 public:
     AFN() {
-        ifstream f("/Users/alc/CLionProjects/LFA/Proiect 1/automat.txt");
+        ifstream f("automat.txt");
         f >> nr_stari;
         fin = new int[nr_stari];
         int i;
